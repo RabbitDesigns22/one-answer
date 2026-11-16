@@ -34,7 +34,7 @@
 With the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add RabbitDesigns22/one-answer
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/one-answer/tree/8f05b88b902e3252d8eae3978fe6539a6c9a5352
 ```
 
 Or manually: copy `skills/one-answer/` into `~/.claude/skills/` for all your projects, or into `.claude/skills/` for one project.
@@ -58,7 +58,7 @@ Before giving a recommendation, a plan, an "is it safe?" answer or a status, loa
 
 **Una sola respuesta, ya pensada.** Cuando le preguntas al agente "¿qué hago?" o "¿es seguro?", muchas veces contesta rápido y luego corrige en el siguiente mensaje, y luego otra vez. `one-answer` lo obliga a comprobar y pensar el plan completo antes de escribir: qué puede fallar, el orden más seguro, lo mínimo que se le pide al cliente y la trampa obvia. Así el primer mensaje ya es el bueno, sin disculpas ni "antes te dije".
 
-Instalar: `npx skills add RabbitDesigns22/one-answer`
+Instalar: `npx skills@1.8.1 add https://github.com/RabbitDesigns22/one-answer/tree/8f05b88b902e3252d8eae3978fe6539a6c9a5352`
 
 ## More skills from the same setup
 
